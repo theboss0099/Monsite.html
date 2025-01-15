@@ -1,0 +1,49 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body, html {
+        background-image: url();
+    height: 100%;
+        font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    }
+    
+    .container {
+        text-align: center;
+    }
+    .square-container {
+    display: grid;
+        grid-template-columns: repeat(2, 200px); 
+        grid-template-rows: repeat(2, 200px); 
+    gap: 20px; 
+        justify-items: center;
+    }
+    .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+        fo
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .square:hover {
+        transform: scale(1.1);
+    background-color: #45a049;
+    }
+    .square:active {
+    transform: scale(1);
+    }
+    h1{
+        position: sticky;
+    }
